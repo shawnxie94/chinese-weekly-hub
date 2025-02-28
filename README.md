@@ -11,7 +11,7 @@ RSS阅读器：
 
 ...
 
-此外，您可以在 Github Topic [rss-reader](https://github.com/topics/rss-reader)中发现更多RSS阅读器。想了解更多关于 RSS 内容可阅读[ALL-about-RSS](https://github.com/AboutRSS/ALL-about-RSS)。
+此外，您可以在 Github Topic "[rss-reader](https://github.com/topics/rss-reader)" 中发现更多RSS阅读器。想了解更多关于 RSS 内容可阅读 [ALL-about-RSS](https://github.com/AboutRSS/ALL-about-RSS)。
 
 ## 列表
 坚持写周刊是一件非常不容易的事o(╥﹏╥)o。如果您从下列周刊中收获了乐趣，欢迎推荐给其他朋友。让更多人能看到这些文章，也让周刊作者有动力继续写创作下去ღ( ´･ᴗ･` )比心。
@@ -47,7 +47,7 @@ RSS阅读器：
 
 注：定期查看周刊状态，超过半年未更新则标注`停更`。
 ## 贡献
-如果你也在写周刊或有好的周刊推荐，欢迎提交Issue。
+如果您也在写周刊或有好的周刊推荐，欢迎提Issue。
 
 
 ## 其他
