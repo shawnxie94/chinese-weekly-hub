@@ -36,14 +36,14 @@ RSS阅读器：
 | V2EX 周报 | 按周统计 V2EX 本周内的热门主题和高赞回复 | 免费 | [link](https://vdaily.huguotao.com/weekly) | [rss](https://vdaily.huguotao.com/weekly/atom.xml) |
 | 小棉袄每日推荐 | 小棉袄的博客，嗅觉浏览器、海阔视界开发者的博客 | 免费 | [link](https://haikuoshijie.cn/) | [rss](https://haikuoshijie.cn/feed/) |
 | 云原生周刊 | 每周云原生开源项目、文章和资讯推荐 | 免费 | [link](https://www.cnblogs.com/kubesphere) | [rss](https://feed.cnblogs.com/blog/u/535669/rss/) |
+| AIGC Weekly | 主要介绍上周AIGC领域发布的一些产品以及值得关注的研究成果 | 付费 | [link](https://quaily.com/op7418) | [rss](https://quail.ink/op7418/feed/atom) |
+| 1Link.Fun 科技周刊 | 每周更新 10 条有趣的链接, 主要包含:科技新闻、网站推荐和工具推荐 | 付费 | [link](https://1link.fun/) | [rss](https://1link.fun/rss/) |
+| Python潮流周刊 | 精心筛选国内外的 250+ 信息源，为你挑选最值得分享的文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。愿景：帮助所有读者精进 Python 技术，并增长职业和副业的收入。 | 付费 | [link](https://pythoncat.top/tags/weekly) | [rss](https://pythoncat.top/rss.xml) |
 | 【停更】独立开发者出海周刊 | 帮助独立开发者缩小信息差 | 免费 | [link](https://gapis.money/) | [rss](https://gapis.money/rss.xml) |
 | 【停更】独立开发变现周刊 | 分享独立开发、产品变现相关内容 | 免费 | [link](https://www.ezindie.com/weekly) | [rss](https://www.ezindie.com/feed/rss.xml) |
 | 【停更】前端精读周刊 | 前端界的好文精读 | 免费 | [link](https://github.com/ascoders/weekly) | [rss](https://github.com/ascoders/weekly/releases.atom) |
 | 【停更】54321 Weekly | 每周分享科技趣闻 | 免费 | [link](https://54321.versun.me/) | [rss](https://54321.versun.me/feed) |
 | 【停更】奇趣周刊 | 分享有趣的软件，程序，动态新闻等 | 免费 | [link](https://zishu.me/categories/weekly/) | [rss](https://zishu.me/categories/weekly/index.xml) |
-| AIGC Weekly | 主要介绍上周AIGC领域发布的一些产品以及值得关注的研究成果 | 付费 | [link](https://quaily.com/op7418) | [rss](https://quail.ink/op7418/feed/atom) |
-| 1Link.Fun 科技周刊 | 每周更新 10 条有趣的链接, 主要包含:科技新闻、网站推荐和工具推荐 | 付费 | [link](https://1link.fun/) | [rss](https://1link.fun/rss/) |
-| Python潮流周刊 | 精心筛选国内外的 250+ 信息源，为你挑选最值得分享的文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。愿景：帮助所有读者精进 Python 技术，并增长职业和副业的收入。 | 付费 | [link](https://pythoncat.top/tags/weekly) | [rss](https://pythoncat.top/rss.xml) |
 
 注：定期查看周刊状态，作者明确表示不更新或超过半年未更新则标注`停更`。
 ## 贡献
