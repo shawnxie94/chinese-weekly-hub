@@ -34,6 +34,7 @@ RSS阅读器：
 | 小棉袄每日推荐 | 小棉袄的博客，嗅觉浏览器、海阔视界开发者的博客 | 免费 | [link](https://haikuoshijie.cn/) | [rss](https://haikuoshijie.cn/feed/) |
 | SecWiki周刊 | 全面记录各种安全新闻及技术 | 免费 | [link](https://www.sec-wiki.com/weekly/) | [rss](https://rsshub.rssforever.com/sec-wiki/weekly) |
 | 大橘和朋友们的周刊 | 记录每周冲浪互联网看到好玩的网站、app应用、资源分享、效率软件工具集等 | 免费 | [link](https://rrorangeandfriends.de/) | [rss](https://rrorangeandfriends.de/feed.xml) |
+| 猫鱼周刊 | 每周收集内容的分享 | 免费 | [link](https://ameow.xyz/) | [rss](https://ameow.xyz/feed.xml) |
 | AIGC Weekly | 主要介绍上周AIGC领域发布的一些产品以及值得关注的研究成果 | 付费 | [link](https://quaily.com/op7418) | [rss](https://quail.ink/op7418/feed/atom) |
 | 1Link.Fun 科技周刊 | 每周更新 10 条有趣的链接, 主要包含:科技新闻、网站推荐和工具推荐 | 付费 | [link](https://1link.fun/) | [rss](https://1link.fun/rss/) |
 | Python潮流周刊 | 精心筛选国内外的 250+ 信息源，为你挑选最值得分享的文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。愿景：帮助所有读者精进 Python 技术，并增长职业和副业的收入。 | 付费 | [link](https://pythoncat.top/tags/weekly) | [rss](https://pythoncat.top/rss.xml) |
@@ -43,7 +44,6 @@ RSS阅读器：
 | 【停更】54321 Weekly | 每周分享科技趣闻 | 免费 | [link](https://54321.versun.me/) | [rss](https://54321.versun.me/feed) |
 | 【停更】奇趣周刊 | 分享有趣的软件，程序，动态新闻等 | 免费 | [link](https://zishu.me/categories/weekly/) | [rss](https://zishu.me/categories/weekly/index.xml) |
 | 【停更】V2EX 周报 | 按周统计 V2EX 本周内的热门主题和高赞回复 | 免费 | [link](https://vdaily.huguotao.com/weekly) | [rss](https://vdaily.huguotao.com/weekly/atom.xml) |
-| 【停更】猫鱼周刊 | 每周收集内容的分享 | 免费 | [link](https://ameow.xyz/categories/weekly) | [rss](https://ameow.xyz/feed/categories/weekly.xml) |
 
 注：定期查看周刊状态，作者明确表示不更新或超过半年未更新则标注`停更`。
 ## 贡献
