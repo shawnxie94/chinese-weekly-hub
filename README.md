@@ -46,6 +46,7 @@ RSS阅读器：
 | 【停更】V2EX 周报 | 按周统计 V2EX 本周内的热门主题和高赞回复 | 免费 | [link](https://vdaily.huguotao.com/weekly) | [rss](https://vdaily.huguotao.com/weekly/atom.xml) |
 
 注：定期查看周刊状态，作者明确表示不更新或超过半年未更新则标注`停更`。
+
 ## 贡献
 如果您也在写周刊或有好的周刊推荐，欢迎提Issue。
 
@@ -54,6 +55,8 @@ RSS阅读器：
 扫码关注“肖恩聊技术”公众号，获取更多与技术相关的内容。
 
 <img src="https://cdn.jsdelivr.net/gh/Xiaoxie1994/images/images/20241103221454.png" alt="公众号二维码" width="300">
+
+[![Star History Chart](https://api.star-history.com/svg?repos=shawnxie94/chinese-weekly-hub&type=date&legend=top-left)](https://www.star-history.com/#shawnxie94/chinese-weekly-hub&type=date&legend=top-left)
 
 License
 ---
