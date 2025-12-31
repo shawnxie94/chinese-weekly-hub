@@ -28,45 +28,15 @@ jobs:
       - name: Run RSS monitor script
         run: python scripts/rss_monitor.py
 
-      - name: Create new branch and commit
-        if: env.RSS_UPDATED == 'true'
-        id: create-branch
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          BRANCH_NAME="rss-update-$(date +%Y%m%d)"
-          echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_ENV
-          
-          git checkout -b $BRANCH_NAME
-          git add -A
-          
-          if git commit -m "🤖 自动更新: RSS停更巡检 ($(date +%Y-%m-%d))"; then
-            echo "COMMIT_CREATED=true" >> $GITHUB_ENV
-          else
-            echo "COMMIT_CREATED=false" >> $GITHUB_ENV
-            echo "No changes to commit"
-            exit 0
-          fi
-          
-          git remote set-url origin https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/${{ github.repository }}
-          git push -u origin $BRANCH_NAME
-
       - name: Create Pull Request
-        if: env.COMMIT_CREATED == 'true'
-        uses: actions/github-script@v7
+        if: env.RSS_UPDATED == 'true'
+        uses: peter-evans/create-pull-request@v6
         with:
-          script: |
-            const { repo, owner } = context.repo;
-            const branchName = process.env.BRANCH_NAME;
-            
-            const { data: pr } = await github.rest.pulls.create({
-              owner,
-              repo,
-              title: `🤖 RSS停更巡检更新 (${new Date().toISOString().split('T')[0]})`,
-              body: '自动生成的 RSS 停更巡检更新，请确认后合并。',
-              head: branchName,
-              base: 'main'
-            });
-            
-            console.log('Pull Request created:', pr.html_url);
+          token: ${{ secrets.ACCESS_TOKEN }}
+          add-paths: README.md
+          commit-message: "🤖 自动更新: RSS停更巡检"
+          branch: rss-update
+          delete-branch: true
+          title: "🤖 RSS停更巡检更新"
+          body: "自动生成的 RSS 停更巡检更新，请确认后合并。"
+          base: main
