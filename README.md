@@ -4,14 +4,13 @@
 坚持写周刊是一件非常不容易的事o(╥﹏╥)o。如果您从下述周刊中收获了乐趣，欢迎推荐给其他朋友，让更多人能看到这些文章，也让周刊作者有动力继续创作下去ღ( ´･ᴗ･` )比心。
 
 ## 状态
-- 活跃源: 17
-- 停更源: 8
+- 活跃源: 15（较上月-2个活跃，+2个停更）
+- 停更源: 10（较上月-2个活跃，+2个停更）
 
 ## 列表
 | 名称 | 简介 | 付费？ | 链接 | RSS |
 | --- | --- | --- | --- | --- |
 | 肖恩技术周刊 | 记录有价值的技术内容。对一周内阅读的资讯或技术内容精品（个人向）进行总结，分类大致包含"业界资讯"、"技术博客"、"开源项目"和"学习资源"等 | 免费 | [link](https://weekly.shawnxie.top/) | [rss](https://weekly.shawnxie.top/rss.xml) |
-| 科技爱好者周刊 | 记录每周值得分享的科技内容 | 免费 | [link](https://www.ruanyifeng.com/blog/weekly/) | [rss](https://www.ruanyifeng.com/blog/atom.xml) |
 | 潮流周刊 | 记录每周看到的接地气的潮流技术 | 免费 | [link](https://weekly.tw93.fun/) | [rss](https://weekly.tw93.fun/rss.xml) |
 | HelloGitHub 月刊 | 分享 GitHub 上有趣、入门级的开源项目，每月 28 号发布最新一期。内容包括开发利器、开源书籍、教程、企业级项目等，让你发现编程的乐趣、爱上开源！ | 免费 | [link](https://hellogithub.com/) | [rss](https://hellogithub.com/rss) |
 | 视野修炼技术周刊 | 拓展技术视野，每天都会产生成千上万的新的内容，周刊每周会精选出一些 优质&有趣 的内容做推送（大前端为主） | 免费 | [link](https://sugarat.top/weekly/) | [rss](https://sugarat.top/feed.rss) |
@@ -25,12 +24,13 @@
 | 猫鱼周刊 | 每周收集内容的分享 | 免费 | [link](https://ameow.xyz/) | [rss](https://ameow.xyz/feed.xml) |
 | AIGC Weekly | 主要介绍上周AIGC领域发布的一些产品以及值得关注的研究成果 | 付费 | [link](https://quaily.com/op7418) | [rss](https://quail.ink/op7418/feed/atom) |
 | 1Link.Fun 科技周刊 | 每周更新 10 条有趣的链接, 主要包含:科技新闻、网站推荐和工具推荐 | 付费 | [link](https://1link.fun/) | [rss](https://1link.fun/rss/) |
-| Python潮流周刊 | 精心筛选国内外的 250+ 信息源，为你挑选最值得分享的文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。愿景：帮助所有读者精进 Python 技术，并增长职业和副业的收入。 | 付费 | [link](https://pythoncat.top/tags/weekly) | [rss](https://pythoncat.top/rss.xml) |
 | 体验碎周报 | 系统的知识来源于对碎片的整理和思考，为了更好地输出系统知识，记录本周发现的体验设计和思考，为构建系统知识做准备 | 免费 | [link](https://www.ftium4.com/categories/%E4%BD%93%E9%AA%8C%E7%A2%8E%E5%91%A8%E6%8A%A5/) | [rss](https://www.ftium4.com/rss.xml) |
 | 【停更18月】前端精读周刊 | 前端界的好文精读 | 免费 | [link](https://github.com/ascoders/weekly) | [rss](https://github.com/ascoders/weekly/releases.atom) |
 | 【停更14月】独立开发变现周刊 | 分享独立开发、产品变现相关内容 | 免费 | [link](https://www.ezindie.com/weekly) | [rss](https://www.ezindie.com/feed/rss.xml) |
-| 【停更7月】54321 Weekly | 每周分享科技趣闻 | 免费 | [link](https://54321.versun.me/) | [rss](https://54321.versun.me/feed) |
 | 【停更3月】老胡的周刊 | 记录有价值的信息 | 免费 | [link](https://weekly.howie6879.com/) | [rss](https://weekly.howie6879.com/rss/rss.xml) |
+| 【停更】科技爱好者周刊 | 记录每周值得分享的科技内容 | 免费 | [link](https://www.ruanyifeng.com/blog/weekly/) | [rss](https://www.ruanyifeng.com/blog/atom.xml) |
+| 【停更】Python潮流周刊 | 精心筛选国内外的 250+ 信息源，为你挑选最值得分享的文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。愿景：帮助所有读者精进 Python 技术，并增长职业和副业的收入。 | 付费 | [link](https://pythoncat.top/tags/weekly) | [rss](https://pythoncat.top/rss.xml) |
+| 【停更】54321 Weekly | 每周分享科技趣闻 | 免费 | [link](https://54321.versun.me/) | [rss](https://54321.versun.me/feed) |
 | 【停更】小棉袄每日推荐 | 小棉袄的博客，嗅觉浏览器、海阔视界开发者的博客 | 免费 | [link](https://haikuoshijie.cn/) | [rss](https://haikuoshijie.cn/feed/) |
 | 【停更】SecWiki周刊 | 全面记录各种安全新闻及技术 | 免费 | [link](https://www.sec-wiki.com/weekly/) | [rss](https://rsshub.rssforever.com/sec-wiki/weekly) |
 | 【停更】独立开发者出海周刊 | 帮助独立开发者缩小信息差 | 免费 | [link](https://gapis.money/) | [rss](https://gapis.money/rss.xml) |
