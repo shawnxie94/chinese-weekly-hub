@@ -22,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install feedparser requests beautifulsoup4
+          pip install feedparser requests beautifulsoup4 python-dateutil
 
       - name: Run RSS monitor script
         run: python scripts/rss_monitor.py
