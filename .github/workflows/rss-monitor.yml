@@ -2,7 +2,7 @@ name: RSS 停更巡检
 
 on:
   schedule:
-    - cron: '0 0 1 * *'  # 每月1日00:00运行
+    - cron: '0 0 1 * *'
   workflow_dispatch:
 
 permissions:
@@ -24,16 +24,24 @@ jobs:
       - name: Install dependencies
         run: |
           pip install feedparser requests beautifulsoup4 python-dateutil
+          echo "Dependencies installed"
 
       - name: Run RSS monitor script
-        run: python scripts/rss_monitor.py
+        run: |
+          python scripts/rss_monitor.py
+          echo "RSS_UPDATED=${{ env.RSS_UPDATED }}"
+
+      - name: Show git status
+        if: env.RSS_UPDATED == 'true'
+        run: |
+          git status
+          git diff --stat
 
       - name: Create Pull Request
         if: env.RSS_UPDATED == 'true'
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
-          add-paths: README.md
           commit-message: "🤖 自动更新: RSS停更巡检"
           branch: rss-update
           delete-branch: true
