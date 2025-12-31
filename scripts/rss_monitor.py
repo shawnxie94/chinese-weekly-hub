@@ -57,7 +57,8 @@ def parse_readme_table(readme_content):
 def get_rss_last_updated(rss_url, timeout=10):
     """获取RSS源的最近更新时间"""
     try:
-        response = requests.get(rss_url, timeout=timeout)
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+        response = requests.get(rss_url, headers=headers, timeout=timeout)
         response.raise_for_status()
 
         feed = feedparser.parse(response.content)
@@ -302,7 +303,8 @@ def main():
 
         if new_content != readme_content:
             print("文件内容有变化，将提交更改")
-            os.environ['RSS_UPDATED'] = 'true'
+            with open('.rss_updated', 'w') as f:
+                f.write('true')
         else:
             print("文件内容无变化")
     else:

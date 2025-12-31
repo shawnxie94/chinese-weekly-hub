@@ -29,7 +29,9 @@ jobs:
       - name: Run RSS monitor script
         run: |
           python scripts/rss_monitor.py
-          echo "RSS_UPDATED=${{ env.RSS_UPDATED }}"
+          if [ -f .rss_updated ]; then
+            echo "RSS_UPDATED=true" >> $GITHUB_ENV
+          fi
 
       - name: Show git status
         if: env.RSS_UPDATED == 'true'
