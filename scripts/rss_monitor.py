@@ -56,38 +56,53 @@ def parse_readme_table(readme_content):
 
 def get_rss_last_updated(rss_url, timeout=10):
     """获取RSS源的最近更新时间"""
-    try:
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
-        response = requests.get(rss_url, headers=headers, timeout=timeout)
-        response.raise_for_status()
+    user_agents = [
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0',
+    ]
 
-        feed = feedparser.parse(response.content)
+    for attempt, ua in enumerate(user_agents):
+        try:
+            headers = {
+                'User-Agent': ua,
+                'Accept': 'application/rss+xml, application/xml, application/atom+xml, text/xml, */*',
+                'Accept-Language': 'en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7',
+            }
+            response = requests.get(rss_url, headers=headers, timeout=timeout)
+            response.raise_for_status()
 
-        if feed.entries:
-            latest_entry = feed.entries[0]
-            if hasattr(latest_entry, 'published_parsed') and latest_entry.published_parsed:
-                return datetime(*latest_entry.published_parsed[:6])
-            elif hasattr(latest_entry, 'updated_parsed') and latest_entry.updated_parsed:
-                return datetime(*latest_entry.updated_parsed[:6])
-            elif hasattr(latest_entry, 'updated'):
-                try:
-                    return datetime.strptime(latest_entry.updated[:19], '%Y-%m-%dT%H:%M:%S')
-                except:
-                    pass
+            feed = feedparser.parse(response.content)
 
-            soup = BeautifulSoup(response.content, 'html.parser')
-            for date_attr in ['pubdate', 'dc:date', 'updated']:
-                date_elem = soup.find(attrs={'name': date_attr}) or soup.find(attrs={'property': date_attr})
-                if date_elem and date_elem.get('content'):
+            if feed.entries:
+                latest_entry = feed.entries[0]
+                if hasattr(latest_entry, 'published_parsed') and latest_entry.published_parsed:
+                    return datetime(*latest_entry.published_parsed[:6])
+                elif hasattr(latest_entry, 'updated_parsed') and latest_entry.updated_parsed:
+                    return datetime(*latest_entry.updated_parsed[:6])
+                elif hasattr(latest_entry, 'updated'):
                     try:
-                        return datetime.fromisoformat(date_elem['content'].replace('Z', '+00:00'))
+                        return datetime.strptime(latest_entry.updated[:19], '%Y-%m-%dT%H:%M:%S')
                     except:
-                        continue
+                        pass
 
-        return None
-    except Exception as e:
-        print(f"  警告: 无法获取 {rss_url}: {e}")
-        return None
+                soup = BeautifulSoup(response.content, 'html.parser')
+                for date_attr in ['pubdate', 'dc:date', 'updated']:
+                    date_elem = soup.find(attrs={'name': date_attr}) or soup.find(attrs={'property': date_attr})
+                    if date_elem and date_elem.get('content'):
+                        try:
+                            return datetime.fromisoformat(date_elem['content'].replace('Z', '+00:00'))
+                        except:
+                            continue
+
+            return None
+        except Exception as e:
+            if attempt == len(user_agents) - 1:
+                print(f"  警告: 无法获取 {rss_url}: {e}")
+            continue
+
+    return None
 
 def calculate_months_since_update(last_updated):
     """计算距离上次更新经过的月数"""
