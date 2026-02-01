@@ -4,8 +4,8 @@
 坚持写周刊是一件非常不容易的事o(╥﹏╥)o。如果您从下述周刊中收获了乐趣，欢迎推荐给其他朋友，让更多人能看到这些文章，也让周刊作者有动力继续创作下去ღ( ´･ᴗ･` )比心。
 
 ## 状态
-- 活跃源: 16
-- 停更源: 9
+- 活跃源: 17
+- 停更源: 8
 
 ## 列表
 | 名称 | 简介 | 付费？ | 链接 | RSS |
@@ -23,6 +23,7 @@
 | 猫鱼周刊 | 每周收集内容的分享 | 免费 | [link](https://ameow.xyz/) | [rss](https://ameow.xyz/feed.xml) |
 | 体验碎周报 | 系统的知识来源于对碎片的整理和思考，为了更好地输出系统知识，记录本周发现的体验设计和思考，为构建系统知识做准备 | 免费 | [link](https://www.ftium4.com/categories/%E4%BD%93%E9%AA%8C%E7%A2%8E%E5%91%A8%E6%8A%A5/) | [rss](https://www.ftium4.com/rss.xml) |
 | SecWiki周刊 | 全面记录各种安全新闻及技术 | 免费 | [link](https://www.sec-wiki.com/weekly/) | [rss](https://www.sec-wiki.com/news/rss) |
+| 不死鸟月刊分享 | 每日资源分享 | 免费 | [link](https://iui.su/fx/) | [rss](https://iui.su/feed/) |
 | AIGC Weekly | 主要介绍上周AIGC领域发布的一些产品以及值得关注的研究成果 | 付费 | [link](https://quaily.com/op7418) | [rss](https://quail.ink/op7418/feed/atom) |
 | 1Link.Fun 科技周刊 | 每周更新 10 条有趣的链接, 主要包含:科技新闻、网站推荐和工具推荐 | 付费 | [link](https://1link.fun/) | [rss](https://1link.fun/rss/) |
 | Python潮流周刊 | 精心筛选国内外的 250+ 信息源，为你挑选最值得分享的文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。愿景：帮助所有读者精进 Python 技术，并增长职业和副业的收入。 | 付费 | [link](https://pythoncat.top/tags/weekly) | [rss](https://pythoncat.top/rss.xml) |
@@ -30,7 +31,6 @@
 | 【停更15月】独立开发变现周刊 | 分享独立开发、产品变现相关内容 | 免费 | [link](https://www.ezindie.com/weekly) | [rss](https://www.ezindie.com/feed/rss.xml) |
 | 【停更4月】老胡的周刊 | 记录有价值的信息 | 免费 | [link](https://weekly.howie6879.com/) | [rss](https://weekly.howie6879.com/rss/rss.xml) |
 | 【停更1月】生信爱好者周刊 | 记录每周值得分享的生信相关内容 | 免费 | [link](https://openbiox.github.io/weekly/) | [rss](https://openbiox.github.io/weekly/feed_rss_created.xml) |
-| 【停更】不死鸟月刊分享 | 每日资源分享 | 免费 | [link](https://iui.su/fx/) | [rss](https://iui.su/feed/) |
 | 【停更】54321 Weekly | 每周分享科技趣闻 | 免费 | [link](https://54321.versun.me/) | [rss](https://54321.versun.me/feed) |
 | 【停更】小棉袄每日推荐 | 小棉袄的博客，嗅觉浏览器、海阔视界开发者的博客 | 免费 | [link](https://haikuoshijie.cn/) | [rss](https://haikuoshijie.cn/feed/) |
 | 【停更】独立开发者出海周刊 | 帮助独立开发者缩小信息差 | 免费 | [link](https://gapis.money/) | [rss](https://gapis.money/rss.xml) |
