@@ -4,7 +4,7 @@
 坚持写周刊是一件非常不容易的事o(╥﹏╥)o。如果您从下述周刊中收获了乐趣，欢迎推荐给其他朋友，让更多人能看到这些文章，也让周刊作者有动力继续创作下去ღ( ´･ᴗ･` )比心。
 
 ## 状态
-- 活跃源: 18
+- 活跃源: 19
 - 停更源: 8
 
 ## 列表
@@ -25,6 +25,7 @@
 | SecWiki周刊 | 全面记录各种安全新闻及技术 | 免费 | [link](https://www.sec-wiki.com/weekly/) | [rss](https://www.sec-wiki.com/news/rss) |
 | 不死鸟月刊分享 | 每日资源分享 | 免费 | [link](https://iui.su/fx/) | [rss](https://iui.su/feed/) |
 | BestBlogs精选 | AI 精选文章推荐 | 免费 | [link](https://www.bestblogs.dev/newsletter) | [rss](https://www.bestblogs.dev/feeds/rss/newsletter) |
+| 代码之外周刊 | 代码可以构建世界，但生活中的乐趣远不止于此。 | 免费 | [link](https://wmyskxz.cn/) | [rss](https://wmyskxz.cn/atom.xml) |
 | AIGC Weekly | 主要介绍上周AIGC领域发布的一些产品以及值得关注的研究成果 | 付费 | [link](https://quaily.com/op7418) | [rss](https://quail.ink/op7418/feed/atom) |
 | 1Link.Fun 科技周刊 | 每周更新 10 条有趣的链接, 主要包含:科技新闻、网站推荐和工具推荐 | 付费 | [link](https://1link.fun/) | [rss](https://1link.fun/rss/) |
 | Python潮流周刊 | 精心筛选国内外的 250+ 信息源，为你挑选最值得分享的文章、教程、开源项目、软件工具、播客和视频、热门话题等内容。愿景：帮助所有读者精进 Python 技术，并增长职业和副业的收入。 | 付费 | [link](https://pythoncat.top/tags/weekly) | [rss](https://pythoncat.top/rss.xml) |
