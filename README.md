@@ -18,7 +18,7 @@
 | 学习周刊 | 周刊的内容以运维技术和 Golang 为主，以及 GitHub 上优秀项目或经验 | 免费 | [link](https://wiki.eryajf.net/learning-weekly/) | [rss](https://wiki.eryajf.net/rss.xml) |
 | 设计素材周刊 | 分享的最新设计素材与资源 | 免费 | [link](https://moonvy.com/blog/tags/%E8%AE%BE%E8%AE%A1%E7%B4%A0%E6%9D%90%E5%91%A8%E5%88%8A/) | [rss](https://moonvy.com/blog/rss.xml) |
 | 体验碎周报 | 系统的知识来源于对碎片的整理和思考，为了更好地输出系统知识，记录本周发现的体验设计和思考，为构建系统知识做准备 | 免费 | [link](https://www.ftium4.com/categories/%E4%BD%93%E9%AA%8C%E7%A2%8E%E5%91%A8%E6%8A%A5/) | [rss](https://www.ftium4.com/rss.xml) |
-| SecWiki周刊 | 全面记录各种安全新闻及技术 | 免费 | [link](https://www.sec-wiki.com/weekly/) | [rss](https://www.sec-wiki.com/news/rss) |
+| SecWiki周刊 | 全面记录各种安全新闻及技术 | 免费 | [link](https://www.sec-wiki.com/weekly/) | [rss](https://rsshub.ktachibana.party/sec-wiki/weekly) |
 | 不死鸟月刊分享 | 每日资源分享 | 免费 | [link](https://iui.su/fx/) | [rss](https://iui.su/feed/) |
 | BestBlogs精选 | AI 精选文章推荐 | 免费 | [link](https://www.bestblogs.dev/newsletter) | [rss](https://www.bestblogs.dev/feeds/rss/newsletter) |
 | AIHOT 周报 | 按栏目回顾一周值得关注的 AI 模型、产品、研究与行业动态。 | 免费 | [link](https://aihot.news/weekly) | [rss](https://aihot.news/feed/weekly.xml) |
