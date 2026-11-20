@@ -4,12 +4,13 @@
 坚持写周刊是一件非常不容易的事o(╥﹏╥)o。如果您从下述周刊中收获了乐趣，欢迎推荐给其他朋友，让更多人能看到这些文章，也让周刊作者有动力继续创作下去ღ( ´･ᴗ･` )比心。
 
 ## 状态
-- 活跃源: 17
-- 停更源: 11
+- 活跃源: 18
+- 停更源: 10
 
 ## 列表
 | 名称 | 简介 | 付费？ | 链接 | RSS |
 | --- | --- | --- | --- | --- |
+| 肖恩技术周刊 | 记录有价值的技术内容。对一周内阅读的资讯或技术内容精品（个人向）进行总结，分类大致包含"业界资讯"、"技术博客"、"开源项目"和"学习资源"等 | 免费 | [link](https://lumina.shawnxie.top/columns?template_id=6a37a520-51e1-493e-b439-2e8281ef3b73) | [rss](https://lumina.shawnxie.top/backend/api/articles/rss.xml?template_id=6a37a520-51e1-493e-b439-2e8281ef3b73) |
 | 科技爱好者周刊 | 记录每周值得分享的科技内容 | 免费 | [link](https://www.ruanyifeng.com/blog/weekly/) | [rss](https://www.ruanyifeng.com/blog/atom.xml) |
 | 潮流周刊 | 记录每周看到的接地气的潮流技术 | 免费 | [link](https://weekly.tw93.fun/) | [rss](https://weekly.tw93.fun/rss.xml) |
 | HelloGitHub 月刊 | 分享 GitHub 上有趣、入门级的开源项目，每月 28 号发布最新一期。内容包括开发利器、开源书籍、教程、企业级项目等，让你发现编程的乐趣、爱上开源！ | 免费 | [link](https://hellogithub.com/) | [rss](https://hellogithub.com/rss) |
@@ -32,7 +33,6 @@
 | 【停更14月】老胡的周刊 | 记录有价值的信息 | 免费 | [link](https://weekly.howie6879.com/) | [rss](https://weekly.howie6879.com/rss/rss.xml) |
 | 【停更11月】生信爱好者周刊 | 记录每周值得分享的生信相关内容 | 免费 | [link](https://openbiox.github.io/weekly/) | [rss](https://openbiox.github.io/weekly/feed_rss_created.xml) |
 | 【停更9月】1Link.Fun 科技周刊 | 每周更新 10 条有趣的链接, 主要包含:科技新闻、网站推荐和工具推荐 | 付费 | [link](https://1link.fun/) | [rss](https://1link.fun/rss/) |
-| 【停更7月】肖恩技术周刊 | 记录有价值的技术内容。对一周内阅读的资讯或技术内容精品（个人向）进行总结，分类大致包含"业界资讯"、"技术博客"、"开源项目"和"学习资源"等 | 免费 | [link](https://weekly.shawnxie.top/) | [rss](https://weekly.shawnxie.top/rss.xml) |
 | 【停更6月】云原生周刊 | 每周云原生开源项目、文章和资讯推荐 | 免费 | [link](https://www.cnblogs.com/kubesphere) | [rss](https://feed.cnblogs.com/blog/u/535669/rss/) |
 | 【停更4月】大橘和朋友们的周刊 | 记录每周冲浪互联网看到好玩的网站、app应用、资源分享、效率软件工具集等 | 免费 | [link](https://rrorangeandfriends.de/) | [rss](https://rrorangeandfriends.de/feed.xml) |
 | 【停更3月】猫鱼周刊 | 每周收集内容的分享 | 免费 | [link](https://ameow.xyz/) | [rss](https://ameow.xyz/feed.xml) |
