@@ -10,7 +10,7 @@
 ## 列表
 | 名称 | 简介 | 付费？ | 链接 | RSS |
 | --- | --- | --- | --- | --- |
-| 肖恩技术周刊 | 记录有价值的技术内容。对一周内阅读的资讯或技术内容精品（个人向）进行总结，分类大致包含"业界资讯"、"技术博客"、"开源项目"和"学习资源"等 | 免费 | [link](https://lumina.shawnxie.top/columns?template_id=6a37a520-51e1-493e-b439-2e8281ef3b73) | [rss](https://lumina.shawnxie.top/backend/api/articles/rss.xml?template_id=6a37a520-51e1-493e-b439-2e8281ef3b73) |
+| 肖恩技术周刊 | 记录有价值的技术内容。对一周内阅读的资讯或技术内容精品（个人向）进行总结，分类大致包含"业界资讯"、"技术博客"、"开源项目"和"学习资源"等 | 免费 | [link](https://lumina.shawnxie.top/columns?template_id=6a37a520-51e1-493e-b439-2e8281ef3b73) | [rss](https://lumina.shawnxie.top/backend/api/columns/rss.xml) |
 | 科技爱好者周刊 | 记录每周值得分享的科技内容 | 免费 | [link](https://www.ruanyifeng.com/blog/weekly/) | [rss](https://www.ruanyifeng.com/blog/atom.xml) |
 | 潮流周刊 | 记录每周看到的接地气的潮流技术 | 免费 | [link](https://weekly.tw93.fun/) | [rss](https://weekly.tw93.fun/rss.xml) |
 | HelloGitHub 月刊 | 分享 GitHub 上有趣、入门级的开源项目，每月 28 号发布最新一期。内容包括开发利器、开源书籍、教程、企业级项目等，让你发现编程的乐趣、爱上开源！ | 免费 | [link](https://hellogithub.com/) | [rss](https://hellogithub.com/rss) |
